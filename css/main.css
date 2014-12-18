@@ -28,7 +28,11 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover {
+nav a:focus {
+  outline: 0;
+}
+
+nav a:hover, nav a:focus {
   background: rgb(232, 71, 97);
 }
 
