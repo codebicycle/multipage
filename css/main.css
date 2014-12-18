@@ -1,0 +1,55 @@
+body {
+  background: tomato;
+  font-family: sans;
+  margin: 1em;
+}
+
+h3 {
+  color: #666;
+  margin-left: 25%;
+  /*text-transform: uppercase;*/
+}
+
+nav ul {
+  background: rgba(152, 41, 108, 0.51);
+  width: 8em;
+}
+
+nav li {
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  padding: 1em;
+  color: white;
+  font-size: 1.1em;
+  font-family: sans;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: rgb(232, 71, 97);
+}
+
+nav a:active {
+  background: rgb(176, 60, 60);
+}
+
+  .current {
+    background: rgb(82, 60, 60);
+    pointer-events: none;
+    cursor: default;
+  }
+
+.about {
+  background: yellow;
+}
+
+.products {
+  background: cadetblue;
+}
+
+.contact {
+  background: orange;
+}
